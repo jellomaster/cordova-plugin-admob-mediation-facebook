@@ -28,7 +28,7 @@
     </platform>
 
     <platform name="ios">    
-        <source-file src="libAdapterFacebook.a" framework="true"/>
+        <framework src="FacebookAdapter.framework" custom="true"/>
 		<framework src="FBAudienceNetwork.framework" custom="true" />
 		<framework src="AdSupport.framework"/>
 		<framework src="StoreKit.framework"/>
